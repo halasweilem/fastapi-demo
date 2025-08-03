@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI!"}
+    return {"message": "Updated: Hello FastAPI from GitHub!"}
 
 @app.get("/greet/{name}")
 def greet(name: str):
